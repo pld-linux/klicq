@@ -36,8 +36,3 @@ rm -rf $RPM_BUILD_ROOT
 %attr(0644,root,root) %{prefix}/man/man1/licq.1
 %attr(0644,root,root) %{prefix}/share/licq-base.tar.gz
 %doc README.Klicq doc/ contrib/ misc/licq.javaconvert.1
-
-%changelog
-* Sat Jul 10 1999 
-  []
-- based on spec written by Troy Engel <tengel@sonic.net>.
