@@ -6,8 +6,6 @@ Release:	1
 License:	GPL
 Vendor:		Daniel Quist <dquist@cs.nmt.edu>
 Group:		X11/Applications/Networking
-Group(de):	X11/Applikationen/Netzwerkwesen
-Group(pl):	X11/Aplikacje/Sieciowe
 Source0:	%{name}-%{version}.tar.gz
 #Source0:	http://www.cs.nmt.edu/~dquist/klicq/%{name}-0.61-2.tar.gz
 URL:		http://www.cs.nmt.edu/~dquist/klicq/
