@@ -11,8 +11,6 @@ Source0:	%{name}-%{version}.tar.gz
 URL:		http://www.cs.nmt.edu/~dquist/klicq/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix		/usr/X11R6
-%define		_mandir		%{_prefix}/man
 
 %description
 This is a patch to the licq 0.61 sources to add KDE support and
