@@ -19,7 +19,7 @@ sources and information.
 %setup -1
 
 %build
-CXXFLAGS="$RPM_OPT_FLAGS" CFLAGS="$RPM_OPT_FLAGS" ./configure \
+CXXFLAGS="%{rpmcflags}" CFLAGS="%{rpmcflags}" ./configure \
 	--prefix=%{prefix}
 %{__make} 
 
@@ -31,8 +31,8 @@ rm -rf $RPM_BUILD_ROOT
 rm -rf $RPM_BUILD_ROOT
 
 %files
-%defattr(-,root,root)
-%attr(0755,root,root) %{prefix}/bin/licq
-%attr(0644,root,root) %{prefix}/man/man1/licq.1
-%attr(0644,root,root) %{prefix}/share/licq-base.tar.gz
+%defattr(644,root,root,755)
+%attr(755,root,root) %{_bindir}/licq
+%attr(644,root,root) %{_mandir}/man1/licq.1
+%attr(644,root,root) %{_datadir}/licq-base.tar.gz
 %doc README.Klicq doc/ contrib/ misc/licq.javaconvert.1
