@@ -30,7 +30,7 @@ http://www.licq.org/.
 %build
 CXXFLAGS="%{rpmcflags}" CFLAGS="%{rpmcflags}" ./configure \
 	--prefix=%{_prefix}
-%{__make} 
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
