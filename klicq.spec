@@ -8,7 +8,7 @@ Packager:	Troy Engel <tengel@sonic.net>
 Group:		X11/KDE/Internet
 Source:		%{name}-%{version}.tar.gz
 URL:		http://www.cs.nmt.edu/~dquist/klicq
-BuildRoot:	/tmp/%{name}-%{version}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This is a patch to the licq 0.61 sources to add KDE support and
