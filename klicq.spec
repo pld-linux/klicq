@@ -4,7 +4,6 @@ Name:		klicq
 Version:	0.61.2
 Release:	1
 License:	GPL
-Vendor:		Daniel Quist <dquist@cs.nmt.edu>
 Group:		X11/Applications/Networking
 Source0:	%{name}-%{version}.tar.gz
 #Source0:	http://www.cs.nmt.edu/~dquist/klicq/%{name}-0.61-2.tar.gz
@@ -40,6 +39,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/licq
-%attr(644,root,root) %{_mandir}/man1/licq.1
-%attr(644,root,root) %{_datadir}/licq-base.tar.gz
+%{_mandir}/man1/licq.1
+%{_datadir}/licq-base.tar.gz
 %doc README.Klicq doc/ contrib/ misc/licq.javaconvert.1
