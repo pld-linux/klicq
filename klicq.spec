@@ -1,5 +1,5 @@
 Summary:	Klicq - patched licq for KDE
-Summary(pl):	Klicq - wersja licq dla KDE
+Summary(pl.UTF-8):   Klicq - wersja licq dla KDE
 Name:		klicq
 Version:	0.61.2
 Release:	1
@@ -16,9 +16,9 @@ This is a patch to the licq 0.61 sources to add KDE support and
 extensions. See http://www.licq.org/ for the original licq sources and
 information.
 
-%description -l pl
-To jest zmodyfikowane licq 0.61 tak, aby dodaæ wsparcie dla KDE i
-rozszerzeñ. Oryginalne licq znajduje siê pod adresem
+%description -l pl.UTF-8
+To jest zmodyfikowane licq 0.61 tak, aby dodaÄ‡ wsparcie dla KDE i
+rozszerzeÅ„. Oryginalne licq znajduje siÄ™ pod adresem
 http://www.licq.org/.
 
 %prep
