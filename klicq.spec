@@ -1,5 +1,5 @@
 Summary:	Klicq - patched licq for KDE
-Summary(pl.UTF-8):   Klicq - wersja licq dla KDE
+Summary(pl.UTF-8):	Klicq - wersja licq dla KDE
 Name:		klicq
 Version:	0.61.2
 Release:	1
